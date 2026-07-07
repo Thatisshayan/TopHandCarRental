@@ -1,32 +1,69 @@
-# React + TypeScript + Vite
+# Top Hand Car Rental
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Premium car rental website for Top Hand Car Rental — serving the Greater Toronto Area since 2000.
 
-Currently, two official plugins are available:
+## Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**https://thatisshayan.github.io/TopHandCarRental/**
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** + **TypeScript** + **Vite**
+- **Tailwind CSS v4** with OKLCH color system
+- **Framer Motion** for animations
+- **Lucide React** for icons
+- Deployed to **GitHub Pages** via GitHub Actions
 
-## Expanding the Oxlint configuration
+## Design Philosophy
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+See [ideas.md](./ideas.md) for the full design philosophy doc — covers brand system, color rationale, typography choices, signature visual devices, and accessibility standards.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### Brand System
+
+- **Design Direction:** Dark Premium Automotive
+- **Signature Color:** Amber Gold (`oklch(0.72 0.19 85)`)
+- **Display Font:** DM Serif Display
+- **Body Font:** Inter
+
+### Signature Visual Devices
+
+1. **Ace Card Corner Treatment** — gold corner brackets on cards evoking a playing card
+2. **Deal Strip Eyebrow** — branded separator before section headings
+3. **Odometer Counters** — rolling animation for trust statistics
+4. **Road Line Dividers** — dashed centerline pattern between sections
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Build & Deploy
+
+```bash
+npm run build
+```
+
+Deployment is automated via GitHub Actions on push to `master`.
+
+## Project Structure
+
+```
+src/
+  components/
+    Navbar.tsx        — Sticky nav with mobile drawer
+    Hero.tsx          — Cinematic hero with parallax
+    Marquee.tsx       — Continuous service ticker
+    Fleet.tsx         — Vehicle showcase grid
+    Services.tsx      — Service offerings
+    WhyChooseUs.tsx   — Trust stats + reasons
+    Process.tsx       — How it works steps
+    Testimonials.tsx  — Customer reviews
+    Location.tsx      — Map + contact info
+    Contact.tsx       — Quote request form
+    Footer.tsx        — NAP-consistent footer
+    ScrollReveal.tsx  — Scroll animation + Odometer
+  lib/
+    utils.ts          — Utility functions
+```
