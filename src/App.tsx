@@ -13,8 +13,14 @@ import { Footer } from './components/Footer'
 function App() {
   return (
     <div className="min-h-screen bg-bg text-text">
+      <a
+        href="#fleet"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-primary focus:text-bg focus:px-4 focus:py-2 focus:rounded-sm focus:font-semibold"
+      >
+        Skip to content
+      </a>
       <Navbar />
-      <main>
+      <main id="main-content">
         <Hero />
         <Marquee />
         <Fleet />

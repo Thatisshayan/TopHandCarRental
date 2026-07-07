@@ -1,5 +1,5 @@
 import { ScrollReveal } from './ScrollReveal'
-import { Phone, Car, MapPinned, PartyPopper } from 'lucide-react'
+import { Phone, Car, MapPinned, CircleCheckBig } from 'lucide-react'
 
 const steps = [
   {
@@ -22,7 +22,7 @@ const steps = [
   },
   {
     number: '04',
-    icon: PartyPopper,
+    icon: CircleCheckBig,
     title: 'Drop Off Anywhere',
     description: 'Return the car at your convenience — we will even pick it up from your location. That is the Top Hand difference.',
   },

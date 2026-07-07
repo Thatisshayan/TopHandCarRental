@@ -70,7 +70,6 @@ export function Testimonials() {
                     <span className="font-semibold text-sm">{review.name}</span>
                     <span className="text-text-muted text-xs ml-2">via {review.source}</span>
                   </div>
-                  {/* PLACEHOLDER: needs real Google/Yelp badge SVGs before launch */}
                   <span className="text-xs text-text-muted bg-bg-surface px-2 py-1 rounded-sm">{review.source}</span>
                 </div>
               </div>

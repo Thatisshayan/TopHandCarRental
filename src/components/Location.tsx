@@ -33,7 +33,7 @@ export function Location() {
           <ScrollReveal>
             <div className="rounded-sm overflow-hidden ace-corner h-full min-h-[350px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.1234567890!2d-79.4111!3d43.7811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e3c3c3c3c3d%3A0x1234567890abcdef!2s146%20Willowdale%20Ave%2C%20North%20York%2C%20ON%20M2N%204Y4!5e0!3m2!1sen!2sca!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.5!2d-79.4111!3d43.7811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889b426e3b3b3b3b%3A0x1234567890abcdef!2s146+Willowdale+Ave%2C+North+York%2C+ON+M2N+4Y4!5e0!3m2!1sen!2sca!4v1700000000000"
                 width="100%"
                 height="100%"
                 style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg) brightness(0.95) contrast(1.1)' }}

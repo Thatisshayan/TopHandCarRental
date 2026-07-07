@@ -1,5 +1,5 @@
 import { ScrollReveal } from './ScrollReveal'
-import { Users, Luggage, Fuel, Star } from 'lucide-react'
+import { Users, Luggage, Fuel, ChevronRight } from 'lucide-react'
 
 const vehicles = [
   {
@@ -109,7 +109,7 @@ export function Fleet() {
                       className="text-sm font-semibold text-primary hover:text-primary-dim transition-colors flex items-center gap-1"
                     >
                       Request Quote
-                      <Star className="h-3.5 w-3.5" />
+                      <ChevronRight className="h-3.5 w-3.5" />
                     </a>
                   </div>
                 </div>
