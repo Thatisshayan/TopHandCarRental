@@ -36,7 +36,7 @@ export function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
             <div className="flex items-center gap-1.5">
-              <img src="/TopHandCarRental/logo.png" alt="Top Hand Car Rental" className="h-10 w-auto sm:h-12" />
+              <img src="/TophandCarRental/logo.png" alt="Top Hand Car Rental" className="h-10 w-auto sm:h-12" />
             </div>
           </a>
 
