@@ -17,14 +17,7 @@ export function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <svg viewBox="0 0 32 32" className="h-8 w-8" aria-hidden="true">
-                <rect width="32" height="32" rx="4" fill="oklch(0.72 0.19 85)" />
-                <text x="16" y="22" textAnchor="middle" fill="oklch(0.13 0.02 260)" fontFamily="DM Serif Display, serif" fontSize="18" fontWeight="700">TH</text>
-              </svg>
-              <div className="flex flex-col leading-none">
-                <span className="font-display text-lg text-text">TOP HAND</span>
-                <span className="text-[10px] uppercase tracking-[0.2em] text-primary font-medium">Car Rental</span>
-              </div>
+              <img src="/TopHandCarRental/logo.png" alt="Top Hand Car Rental" className="h-10 w-auto" />
             </div>
             <p className="text-text-muted text-sm leading-relaxed max-w-xs">
               Premium car rental serving the Greater Toronto Area since 2000. We pick you up, so you never have to worry about getting there.

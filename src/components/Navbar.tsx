@@ -36,14 +36,7 @@ export function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
             <div className="flex items-center gap-1.5">
-              <svg viewBox="0 0 32 32" className="h-8 w-8 sm:h-9 sm:w-9" aria-hidden="true">
-                <rect width="32" height="32" rx="4" fill="oklch(0.72 0.19 85)" />
-                <text x="16" y="22" textAnchor="middle" fill="oklch(0.13 0.02 260)" fontFamily="DM Serif Display, serif" fontSize="18" fontWeight="700">TH</text>
-              </svg>
-              <div className="flex flex-col leading-none">
-                <span className="font-display text-lg sm:text-xl tracking-tight text-text">TOP HAND</span>
-                <span className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-primary font-medium">Car Rental</span>
-              </div>
+              <img src="/TopHandCarRental/logo.png" alt="Top Hand Car Rental" className="h-10 w-auto sm:h-12" />
             </div>
           </a>
 

@@ -7,7 +7,6 @@ const vehicles = [
     example: 'Toyota Corolla or similar',
     image: 'https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1',
     specs: { seats: 5, bags: 2, fuel: 'Efficient' },
-    price: 'From $45/day',
     tag: 'Best Value',
   },
   {
@@ -15,7 +14,6 @@ const vehicles = [
     example: 'Honda Civic or similar',
     image: 'https://images.pexels.com/photos/1007410/pexels-photo-1007410.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1',
     specs: { seats: 5, bags: 3, fuel: 'Efficient' },
-    price: 'From $55/day',
     tag: 'Popular',
   },
   {
@@ -23,7 +21,6 @@ const vehicles = [
     example: 'Toyota RAV4 or similar',
     image: 'https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1',
     specs: { seats: 5, bags: 4, fuel: 'Standard' },
-    price: 'From $65/day',
     tag: null,
   },
   {
@@ -31,7 +28,6 @@ const vehicles = [
     example: 'Mercedes-Benz C-Class or similar',
     image: 'https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1',
     specs: { seats: 5, bags: 3, fuel: 'Premium' },
-    price: 'From $95/day',
     tag: 'Premium',
   },
   {
@@ -39,7 +35,6 @@ const vehicles = [
     example: 'Dodge Grand Caravan or similar',
     image: 'https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1',
     specs: { seats: 7, bags: 4, fuel: 'Standard' },
-    price: 'From $80/day',
     tag: null,
   },
   {
@@ -47,7 +42,6 @@ const vehicles = [
     example: 'Ford Mustang or similar',
     image: 'https://images.pexels.com/photos/100615/pexels-photo-100615.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&dpr=1',
     specs: { seats: 4, bags: 2, fuel: 'Premium' },
-    price: 'From $120/day',
     tag: 'Exotic',
   },
 ]
@@ -110,12 +104,11 @@ export function Fleet() {
                   </div>
 
                   <div className="flex items-center justify-between pt-4 border-t border-border">
-                    <span className="text-primary font-bold text-lg">{vehicle.price}</span>
                     <a
                       href="#contact"
-                      className="text-sm font-semibold text-text-muted hover:text-primary transition-colors flex items-center gap-1"
+                      className="text-sm font-semibold text-primary hover:text-primary-dim transition-colors flex items-center gap-1"
                     >
-                      Reserve
+                      Request Quote
                       <Star className="h-3.5 w-3.5" />
                     </a>
                   </div>
@@ -127,8 +120,7 @@ export function Fleet() {
 
         <ScrollReveal delay={0.3}>
           <p className="text-center text-text-muted text-sm mt-8">
-            {/* PLACEHOLDER: needs official fleet pricing sheet before launch */}
-            Prices shown are starting rates. Actual rates vary by season and availability. Call for a custom quote.
+            All vehicles are fully insured, maintained, and detailed before each rental. Call for availability and custom quotes.
           </p>
         </ScrollReveal>
       </div>
