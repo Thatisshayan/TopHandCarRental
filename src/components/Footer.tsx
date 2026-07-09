@@ -17,7 +17,7 @@ export function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <img src="/TophandCarRental/logo.png" alt="Top Hand Car Rental" className="h-10 w-auto" />
+              <img src="./logo.png" alt="Top Hand Car Rental" className="h-10 w-auto" />
             </div>
             <p className="text-text-muted text-sm leading-relaxed max-w-xs">
               Premium car rental serving the Greater Toronto Area since 2000. We pick you up, so you never have to worry about getting there.
